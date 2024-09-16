@@ -37,8 +37,8 @@ INSERT INTO Users (Username, Email, PasswordHash)
 VALUES ('Percy Jackson', 'percy@camphalfblood.com', 'percyjackson'),
        ('Annabeth Chase', 'annabeth@camphalfblood.com', 'annabethchase'), 
        ('Grover Underwood', 'grover@camphalfblood.com', 'groverunderwood'),
-       (4, 'Thalia Grace', 'thalia@camphalfblood.com', 'thaliagrace'),
-       (5, 'Luke Castellan', 'luke@camphalfblood.com', 'lukecastellan');
+       ('Thalia Grace', 'thalia@camphalfblood.com', 'thaliagrace'),
+       ('Luke Castellan', 'luke@camphalfblood.com', 'lukecastellan');
 
 --INSERTING VALUES INTO CATEGORIES TABLE
 INSERT INTO Categories (CategoryID, CategoryName) 
